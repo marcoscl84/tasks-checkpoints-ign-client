@@ -1,3 +1,13 @@
-export function Habit() {
-  return <h1>Habito algum</h1>;
+import "./Habit.css";
+
+interface HabitProps {
+  completed: number;
+}
+
+export function Habit({ completed }: HabitProps) {
+  return (
+    <div>
+      <div className="habit">{completed}</div>
+    </div>
+  );
 }
