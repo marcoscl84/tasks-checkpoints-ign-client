@@ -16,3 +16,8 @@ npx tailwindcss init -p
 instalar VSCode extensão: Tailwind CSS IntelliSense
 instalar VSCode extensão: PostCSS Language Support
  -->
+
+ <!-- 
+ INSTALANDO PHOSPHOR REACT PARA IMPORTA ÍCONES
+ npm i phosphor-react
+  -->

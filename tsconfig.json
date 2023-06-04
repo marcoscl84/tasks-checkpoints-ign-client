@@ -6,12 +6,18 @@
     "skipLibCheck": true,
 
     /* Bundler mode */
-    "moduleResolution": "bundler",
+    "moduleResolution": "Node",
     "allowImportingTsExtensions": true,
     "resolveJsonModule": true,
     "isolatedModules": true,
     "noEmit": true,
     "jsx": "react-jsx",
+
+    "useDefineForClassFields": true,
+    "allowJs": false,
+    "esModuleInterop": false,
+    "allowSyntheticDefaultImports": true,
+    "forceConsistentCasingInFileNames": true,
 
     /* Linting */
     "strict": true,
